@@ -1,0 +1,11 @@
+{
+  "name": "Google Translate",
+  "version": "1.0.0",
+  "description": "Google Translate Chrome Extension",
+  "manifest_version": 3,
+  "author": "Allie Itczak and Anna Kempel",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Google Translate"
+  }
+}
