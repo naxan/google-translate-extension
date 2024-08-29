@@ -1,0 +1,73 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 300px;
+  background-color: #778da9;
+}
+
+#dropdownBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+}
+
+.langDrop {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #e0e1dd;
+  cursor: pointer;
+  border-style: none;
+}
+
+.langDrop:hover,
+.langDrop:focus {
+  background-color: #1b263b;
+  color: #e0e1dd;
+  border-style: none;
+}
+
+form {
+  /* padding: 10px; */
+
+  display: flex;
+  flex-direction: column;
+}
+
+#message {
+  width: 200px;
+  height: 200px;
+  /* border: 2px solid black; */
+  border-radius: 5%;
+  padding: 20px;
+  margin: 5px;
+  background-color: #e0e1dd;
+}
+
+#translatedText {
+  margin-left: 5px;
+  margin-top: 5px;
+  width: 200px;
+  height: 200px;
+  /* border: 2px solid black; */
+  border-radius: 5%;
+  padding: 20px;
+  background-color: #e0e1dd;
+}
+
+#translateButton {
+  margin: 5px 0 5px 4px;
+  width: 245px;
+  height: 30px;
+  background-color: white;
+  color: black;
+  border-radius: 15px;
+  border-style: none;
+  background-color: #1b263b;
+  color: white;
+  cursor: pointer;
+}
